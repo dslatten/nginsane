@@ -42,14 +42,14 @@ the directive, for example:
 - (module)**
 - (status)***
 
- * Could be eliminated if nginsane became part of the nginx build, 
+\* Could be eliminated if nginsane became part of the nginx build, 
 because presumably nginsane would only document directives that are 
 compatible (and non-deprecated) for its corresponding nginx build/release. 
 
- ** Could be eliminated if nginsane files convey this information 
+\** Could be eliminated if nginsane files convey this information 
 through file names and directory structure. 
 
- *** I grabbed this info type from [Apache's 
+\*** I grabbed this info type from [Apache's 
 docs](http://httpd.apache.org/docs/current/mod/directive-dict.html#Statu 
 s), but it may not be necessary or useful to have in a config file. 
 Frankly, I haven't worked with nginx enough to know at this point. 
