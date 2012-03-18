@@ -109,6 +109,6 @@ already established a usable system.
 
 - [XSLT](https://developer.mozilla.org/en/XSLT) - here's another standard I'll probably need to learn. The [nginx.org svn repository uses XSLT](http://trac.nginx.org/nginx/browser/nginx_org/xslt) as part of their build process to turn documentation into several formats (e.g., HTML, XML). Or at least I *think* that's what they're using it for.
 
-- svn://svn.nginx.org/nginx - svn repo URL for nginx source.
+- `svn://svn.nginx.org/nginx` - svn repo URL for nginx source.
 
-- svn://svn.nginx.org/nginx.org - svn repo URL for nginx.org website source. If I actually automate nginsane to build alongside nginx, then this repo is where I'll checkout the docs to use as source files.
+- `svn://svn.nginx.org/nginx.org` - svn repo URL for nginx.org website source. If I actually automate nginsane to build alongside nginx, then this repo is where I'll checkout the docs to use as source files.
