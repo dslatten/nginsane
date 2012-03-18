@@ -107,8 +107,8 @@ already established a usable system.
 
 - [GNU Make makefile convensions](http://www.gnu.org/prep/standards/html_node/Makefile-Conventions.html#Makefile-Conventions) - if I'm to make an attempt to incorporate nginsane into the nginx build process, I'll probably need to learn GNU Make at some point.
 
-- [XSLT](https://developer.mozilla.org/en/XSLT) - here's another standard I'll probably need to learn. The [nginx.org svn repository uses XSLT](svn://svn.nginx.org/nginx.org/xslt) as part of their build process to turn documentation into several formats (e.g., HTML, XML). Or at least I *think* that's what they're using it for.
+- [XSLT](https://developer.mozilla.org/en/XSLT) - here's another standard I'll probably need to learn. The [nginx.org svn repository uses XSLT](http://trac.nginx.org/nginx/browser/nginx_org/xslt) as part of their build process to turn documentation into several formats (e.g., HTML, XML). Or at least I *think* that's what they're using it for.
 
-- [Nginx Subversion repo - Main](svn://svn.nginx.org/nginx) - svn repo URL for nginx source.
+- <a href="svn://svn.nginx.org/nginx">Nginx Subversion repo - Main</a> - svn repo URL for nginx source.
 
-- [Nginx Subversion repo - Website](svn://svn.nginx.org/nginx.org) - svn repo URL for nginx.org website source. If I actually automate nginsane to build alongside nginx, then this repo is where I'll checkout the docs to use as source files.
+- <a href="svn://svn.nginx.org/nginx.org">Nginx Subversion repo - Website</a> - svn repo URL for nginx.org website source. If I actually automate nginsane to build alongside nginx, then this repo is where I'll checkout the docs to use as source files.
