@@ -64,7 +64,7 @@ directive:
 
 When nginx is built with `--with-debug`, nginsane prints:
 
-`#  syntax:  error_log (%file|stderr) [<b>debug</b>|info|notice|warn|error|crit|alert|emerg];`
+`#  syntax:  error_log (%file|stderr) [debug|info|notice|warn|error|crit|alert|emerg];`
 
 
 When nginx is built with<b>out</b> `--with-debug`, nginsane prints:
