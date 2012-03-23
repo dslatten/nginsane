@@ -1,0 +1,90 @@
+Nginsane Specifications
+=======================
+
+Informal notes and thoughts on how to define 
+Nginsane's config directive prototype syntax
+
+
+
+Information conveyed by each directive's comment block elements:
+================================================================
+
+- syntax
+    - total number of parameters: all parameters are delimited by (...) or [...]
+    - required parameters: enclosed in (...)
+    - optional parameters: enclosed in [...]
+    - data types
+        - literal values: no special syntax; written as-is
+        - variables: preceded by % character
+
+- default
+    - provides a literal syntax example
+    - provides the ability to quickly identify if current config is different than default
+
+- example
+    - if default is null, an example would be helpful
+
+- context
+    - the directive's valid nginx config contexts, listed in hierarchical order
+
+
+- brief description
+- (compatability)*
+- (module)**
+- (status)***
+
+
+EXAMPLE
+=======
+
+#  syntax:  error_log (%file|stderr) [debug|info|notice|warn|error|crit|alert|emerg];
+# default:  error_log logs/error.log error;
+# example:  
+# context:  main, http, server, location
+# details:  Configures logging.
+# param 1:  The first parameter defines a file that will store the log. The special value stderr selects the standard error file.
+# param 2:  The second parameter determines the level of logging. Log levels above are listed in the order of increasing severity. Setting a certain log level will cause all messages of the specified and more severe log levels to be logged. For example, the default level error will cause error, crit, alert, and emerg messages to be logged. If this parameter is omitted then error is used.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

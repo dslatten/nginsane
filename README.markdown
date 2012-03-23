@@ -1,5 +1,5 @@
-# nginsane #
-*en jin sane*
+# Nginsane #
+<b><i>en &#x00b7; jin &#x00b7; sane</i></b>
 
 
 
@@ -33,6 +33,7 @@ the directive, for example:
 
 - syntax
 - context
+- example
 - default values
 - accepted values
 - required arguments
@@ -53,6 +54,22 @@ through file names and directory structure.
 docs](http://httpd.apache.org/docs/current/mod/directive-dict.html#Statu 
 s), but it may not be necessary or useful to have in a config file. 
 Frankly, I haven't worked with nginx enough to know at this point. 
+
+<b>Idea:</b> In order to avoid overloading users with too much 
+information (or information that doesn't pertain to their nginx build), 
+nginsane could use the build parameters to determine whether or not to 
+include certain pieces of information. For example, the `error_log` 
+directive: 
+
+
+When nginx is built with `--with-debug`, nginsane prints:
+
+`#  syntax:  error_log (%file|stderr) [<b>debug</b>|info|notice|warn|error|crit|alert|emerg];`
+
+
+When nginx is built with<b>out</b> `--with-debug`, nginsane prints:
+
+`#  syntax:  error_log (%file|stderr) [info|notice|warn|error|crit|alert|emerg];`
 
 
 
